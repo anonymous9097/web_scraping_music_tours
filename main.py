@@ -4,7 +4,9 @@ import selectorlib
 import smtplib, ssl
 import os
 import sqlite3
+from dotenv import load_dotenv
 
+load_dotenv()
 
 URL = "http://programmer100.pythonanywhere.com/tours/"
 
